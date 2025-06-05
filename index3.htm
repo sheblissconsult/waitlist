@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SheBlissConsult</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .header img {
+      width: 100%;
+      max-width: 768px;
+      display: block;
+      margin: auto;
+      background-color: white;
+    }
+
+    h1, h3 {
+      margin: 0;
+    }
+
+    .centered {
+      text-align: center;
+      padding: 40px 20px;
+      color: #002252;
+    }
+
+    .centered button {
+      background-color: #ff6000;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 10px;
+      font-weight: bold;
+      color: white;
+      font-size: 16pt;
+      cursor: pointer;
+    }
+
+    .centered button a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .dark-section {
+      background-color: #002252;
+      color: white;
+      padding: 80px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .dark-section h3 {
+      font-size: 32pt;
+      flex: 1 1 300px;
+      margin-bottom: 30px;
+    }
+
+    .dark-section ul {
+      flex: 2 1 300px;
+      font-size: 16pt;
+      line-height: 1.8em;
+      padding-left: 20px;
+    }
+
+    .about {
+      background-color: black;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 60px 20px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .about figure {
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    .about figure img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .about figcaption {
+      margin-top: 10px;
+      font-size: 16pt;
+    }
+
+    .about p {
+      flex: 2 1 300px;
+      font-size: 16pt;
+      padding: 20px;
+      text-align: justify;
+    }
+
+    .what-learn {
+      background-color: white;
+      padding: 80px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .what-learn h3 {
+      color: #002252;
+      font-size: 32pt;
+      flex: 1 1 250px;
+      padding: 20px;
+    }
+
+    .what-learn ol {
+      flex: 2 1 300px;
+      color: #002252;
+      font-size: 16pt;
+      padding: 20px;
+    }
+
+    .waitlist {
+      background-color: #002252;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .waitlist form input, .waitlist form textarea {
+      width: 90%;
+      max-width: 500px;
+      height: 50px;
+      border-radius: 5px;
+      border: none;
+      margin: 10px auto;
+      display: block;
+      padding-left: 10px;
+    }
+
+    .waitlist form textarea {
+      height: 120px;
+    }
+
+    .waitlist button {
+      background-color: #ff6000;
+      color: white;
+      border: none;
+      width: 90%;
+      max-width: 350px;
+      height: 50px;
+      border-radius: 5px;
+      font-size: 17pt;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .waitlist button a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+      font-size: 14pt;
+    }
+
+    /* Responsive Tweaks */
+    @media (max-width: 768px) {
+      .dark-section, .about, .what-learn {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+      }
+
+      .dark-section h3,
+      .what-learn h3 {
+        text-align: center;
+        font-size: 24pt;
+      }
+
+      .about p {
+        padding: 20px 10px;
+      }
+
+      .centered h1 {
+        font-size: 22pt;
+      }
+
+      .waitlist h1 {
+        font-size: 28pt;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="headerbar.jpg" alt="Header Banner" />
+  </div>
+
+  <div class="centered">
+    <h1>DISCOVER HOW TO BECOME THE IRRESISTIBLE LADY</h1>
+    <p><b>FIND YOUR PATH BOOTCAMP is A 7-Day Online Bootcamp</b><br>
+      For Ladies Ready to Move from Confusion to Clarity and Build a Personal Brand That Aligns with Their Identity.</p>
+    <br>
+    <button><a href="https://bit.ly/4dwxpNg">Register Today</a></button>
+  </div>
+
+  <div class="dark-section">
+    <h3>THIS BOOTCAMP IS FOR YOU IF YOU ARE:</h3>
+    <ul>
+      <li>Within ages 16-35 and unsure of your purpose.</li>
+      <li>An aspiring leader with a story to share but no voice yet.</li>
+      <li>An entrepreneur who's tried many things but sees little result.</li>
+      <li>A diligent lady struggling to build strategic relationships.</li>
+      <li>A multi-talented lady unsure of where to focus.</li>
+      <li>A career woman not aligned with her vision.</li>
+      <li>A student, graduate, NYSC member or final year student struggling to choose a fulfilling career.</li>
+    </ul>
+  </div>
+
+  <div class="about">
+    <figure>
+      <img src="phebe image.jpg" alt="Phebe Benjamin" />
+      <figcaption>
+        <b style="font-size: 18pt;">Phebe Benjamin</b><br>
+        Ladies Transformation Coach<br>CEO/Founder, She Bliss Consult
+      </figcaption>
+    </figure>
+    <p>
+      <b style="font-size: 28pt;">About Me</b><br><br>
+      <b>Phebe Benjamin</b> is a Ladies Transformation Coach, Brand Manager and Founder of She Bliss Consult.
+      She has helped over 100 young women find their purpose, niche and build a personal brand that aligns with their identity. She offers one-on-one coaching, mentorships and bootcamps for ladies who are ready to become.
+    </p>
+  </div>
+
+  <div class="centered" style="background-color: #002252;">
+    <button><a href="https://bit.ly/4dwxpNg">Register Today</a></button>
+  </div>
+
+  <div class="what-learn">
+    <h3>What You Will Learn:</h3>
+    <ol>
+      <li>How to discover your purpose and passion.</li>
+      <li>Discover a niche that suits your purpose and makes you stand out.</li>
+      <li>How to create a personal brand aligned with purpose.</li>
+      <li>How to monetize your skills and earn six-seven figures monthly.</li>
+      <li>Creating your first digital product.</li>
+      <li>How to build strategic relationships for premium opportunities.</li>
+      <li>Utilising AI in your content creation.</li>
+      <li>Building an online presence.</li>
+    </ol>
+  </div>
+
+  <div class="waitlist">
+    <h1>JOIN THE WAITLIST</h1>
+    <p>Do not miss your chance.<br>Fill out the form below and join the wait-list today.</p>
+    <form>
+      <input type="text" name="fullname" placeholder="Insert your Full Name" required>
+      <input type="email" name="email" placeholder="Insert your Email" required>
+      <input type="tel" name="phone" placeholder="Mobile no (WhatsApp preferred)" required>
+      <textarea name="message" placeholder="Send us a message" required></textarea>
+      <button><a href="mailto:sheblissconsults@gmail.com">Submit</a></button>
+    </form>
+  </div>
+
+  <footer>
+    sheblissconsults 2025
+  </footer>
+
+</body>
+</html>
